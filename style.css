@@ -74,6 +74,58 @@ img{
     background-color: white;
 }
 
+.airballon{
+    color: purple;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    display: none;
+}
+
+.airballon2{
+    color: purple;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+
+}
+
+.card:hover h3.airballon{
+    display: block;
+}
+
+.tram{
+    color: rgb(182, 56, 17);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    display: none;
+}
+
+.card:hover h3.tram{
+    display: block;
+}
+
+.cruise{
+    color: rgb(42, 17, 182);
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    display: none;
+}
+
+.card:hover h3.cruise{
+    display: block;
+}
+
 footer{
     text-align: center;
     padding: 10px;
