@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+}
+
+.content{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(96, 207, 211);
+    /* border: 1px solid black; */
+}
+
+h1{
+    color: white;
+    /* border: 1px solid black; */
+    font-size: 80px;
+    text-align: center;
+    padding: 20px;
+}
+
+.box{
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.box > .row{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 33.3%;
+    padding-bottom: 10px;
+}
+
+.row > .card{
+    /* border: 1px solid black; */
+    width: 24%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 2px;
+    position: absolute;
+    
+}
+
+.scoperta{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: none;
+}
+
+.card:hover img.scoperta{
+    background-color: white;
+    display: block;
+}
+
+.sempre-scoperta{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: white;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
